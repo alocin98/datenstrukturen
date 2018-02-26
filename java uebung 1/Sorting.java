@@ -7,7 +7,7 @@
 
 
 public class Sorting {
-
+//J
 	/**
 	 * Vertauscht im array die beiden Werte an pos1 und pos2.
 	 * */
