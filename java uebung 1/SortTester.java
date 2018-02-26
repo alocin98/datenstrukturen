@@ -1,7 +1,7 @@
 /**
  * File: SortTester.java
  *
- * Einfaches Testprogramm der Sortieralgorithmen.
+ * Einfaches Testprogramm der Sortieralgorithmen..
  */
 
 public class SortTester {

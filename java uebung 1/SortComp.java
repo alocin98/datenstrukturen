@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class SortComp{
-//hall
+//hallo
   public static void main (String[] args){
     System.out.println("Array: " + Arrays.toString(createArray(100)));
   }

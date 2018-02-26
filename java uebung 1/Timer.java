@@ -1,7 +1,7 @@
 import java.util.Date;
 
 /**
- * A utility class to help us run benchmarks.
+ * A utility class to help us run benchmarks..
  *
  * @author Oscar.Nierstrasz@acm.org
  * @version 1.0 1998-11-25
