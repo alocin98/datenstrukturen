@@ -14,7 +14,9 @@ public class Timer {
 	 * you want to time something, or you can reset()
 	 * an existing instance.
 	 */
-	public Timer() { this.reset(); }
+	public Timer() {
+		this.reset();
+	}
 
 	public void reset() {
 		_startTime = this.timeNow();

@@ -1,9 +1,7 @@
-//Penis
-
 import java.util.*;
 
 public class SortComp{
-//hallo
+
   public static void main (String[] args){
     System.out.println("Array: " + Arrays.toString(createArray(100)));
   }
