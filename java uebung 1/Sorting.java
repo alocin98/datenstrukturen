@@ -2,7 +2,7 @@
  * File: Sorting.java
  *
  * Implementation von Insertion Sort (Sortieren durch Einfuegen) und.
- * Merge Sort (Sortieren durch Mischen).
+ * Merge Sort (Sortieren durch Mischen)..
  */
 
 
