@@ -3,7 +3,7 @@ import java.util.*;
 public class SortComp{
 
   public static void main (String[] args){
-    System.out.println(createArray(10));
+    System.out.println(insertionTime());
   }
 
   private static int[] createArray(int length){
@@ -15,12 +15,16 @@ public class SortComp{
     return array;
   }
 
-  private static long insertTime(){
-    
+  private static long insertionTime(){
+    int[] array = createArray(100000);
+    Timer time = new Timer();
+    time.reset();
+    Sorting.insertionSort(array);
+    return time.timeElapsed();
   }
 
-  private static long mergeTime(){
+/*  private static long mergeTime(){
 
   }
-
+*/
 }
