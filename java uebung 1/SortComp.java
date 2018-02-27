@@ -9,7 +9,7 @@ public class SortComp{
                       200000, 500000, 800000};
     for(int i = 0; i <= 10; i++){
       System.out.println("Test " + i + " insertionSort with " + elements[i] +
-      " elements took " + insertionTime(elements[i]) + " ms");
+      " elements took " + insertionTime(elements[i]) + "ms");
       System.out.println("Test " + i + " MergeSort with " + elements[i] +
       " elements took " + mergeTime(elements[i]) + "ms\n");
     }
