@@ -5,7 +5,7 @@ public class SortComp{
   static Timer time = new Timer();
 
   public static void main (String[] args){
-    int[] elements = {2000, 5000, 8000, 10000, 20000, 50000, 80000, 100000,
+    int[] elements = {100, 5000, 8000, 10000, 20000, 50000, 80000, 100000,
                       200000, 500000, 800000};
     for(int i = 0; i <= 10; i++){
       System.out.println("Test " + i + " insertionSort with " + elements[i] +
