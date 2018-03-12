@@ -4,6 +4,12 @@
 
 public class NameVornameComparator implements java.util.comparator<StudentIn>{
   private String namevornameA, namevornameB;
+
+  //test-main methode --> JUnit sucks
+  public void main(String[] args){
+
+  }
+
   /**
   * liefert:    -1  a ist vor b im Alphabet
   *             0   a ist gleich b

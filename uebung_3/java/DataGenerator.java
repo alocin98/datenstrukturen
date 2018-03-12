@@ -10,7 +10,7 @@ public class DataGenerator {
 
   // Attribut:
   private ArrayList<StudentIn> myCurrentData;
-  
+
   /** Generiert einen Array mit n Elementen vom Typ StudentIn. */
   public ArrayList<StudentIn> generateNewData(int n) {
     myCurrentData = new ArrayList<StudentIn>(n);
@@ -52,9 +52,3 @@ public class DataGenerator {
     return sb.toString();
   }
 }
-
-
-
-
-
-
