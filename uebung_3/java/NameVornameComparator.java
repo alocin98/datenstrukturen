@@ -5,9 +5,14 @@
 public class NameVornameComparator implements java.util.comparator<StudentIn>{
   private String namevornameA, namevornameB;
 
+  public NameVornameComparator(){
+    namevornameA = combineNames(a);
+    namevornameB = combineNames(b);
+  }
+
   //test-main methode --> JUnit sucks
   public void main(String[] args){
-
+    
   }
 
   /**
@@ -17,8 +22,7 @@ public class NameVornameComparator implements java.util.comparator<StudentIn>{
   * --> Name vor Vorname, also z.b Mueller Nicolas
   */
   public int compare(StudentIn a, StudentIn b) {
-    namevornameA = combineNames(a);
-    namevornameB = combineNames(b);
+    if()
   }
 
   private String combineNames(StudentIn std){
