@@ -2,19 +2,7 @@
 * Vergleicht Studenten anhand von Name und Vorname.
 */
 
-public class NameVornameComparator implements java.util.comparator<StudentIn>{
-  private String namevornameA, namevornameB;
-
-  public NameVornameComparator(){
-    namevornameA = combineNames(a);
-    namevornameB = combineNames(b);
-  }
-
-  //test-main methode --> JUnit sucks
-  public void main(String[] args){
-    
-  }
-
+public class NameVornameComparator implements java.util.Comparator<StudentIn>{
   /**
   * liefert:    -1  a ist vor b im Alphabet
   *             0   a ist gleich b
@@ -22,10 +10,22 @@ public class NameVornameComparator implements java.util.comparator<StudentIn>{
   * --> Name vor Vorname, also z.b Mueller Nicolas
   */
   public int compare(StudentIn a, StudentIn b) {
-    if()
+    return compareHelper(extractNames(a), extractNames(b));
   }
 
-  private String combineNames(StudentIn std){
-    return std.getName().concat(std.getVorname).trim().toLowerCase();
+  private int compareHelper(String a, String b){
+    if(a.length() == 0 && b.length() == 0) return 0;
+
+    int integer_a = a.charAt(0);
+    int integer_b = b.charAt(0);
+
+    if(integer_a < integer_b) return -1;
+    if(integer_a > integer_b) return 1;
+
+    return compareHelper(a.substring(1), b.substring(1));
+  }
+
+  private String extractNames(StudentIn std){
+    return std.getName().concat(std.getVorname()).trim().toLowerCase();
   }
 }

@@ -4,8 +4,8 @@ import java.util.Comparator;
 /**
  * File: QuickSort.java
  *
- * Implementation von Quicksort. Verwendet generische ArrayList für Eingabedaten
- * und generischen Comparator um Datenelemente zu vergleichen. 
+ * Implementation von Quicksort. Verwendet generische ArrayList fuer Eingabedaten
+ * und generischen Comparator um Datenelemente zu vergleichen.
  */
 public class QuickSort {
 
@@ -15,10 +15,10 @@ public class QuickSort {
 public static <T> void quickSort(ArrayList<T> array, int left, int right, Comparator<T> comp) {
 	if (right>left) {  // Abbruchbedingung der Rekursion
 		T temp;        // temporaere Hilfsvariable zum swappen
-  
+
 		// *** 1. Pivotelement selektieren:
 		T pivot = array.get(right);
-  
+
 		// *** 2. Aufteilung in Subsequenzen durchfuehren:
 		int l = left-1;
 		int r = right;
@@ -37,11 +37,10 @@ public static <T> void quickSort(ArrayList<T> array, int left, int right, Compar
 		// Pivotelement in sortierte Position bringen:
 		array.set(l, pivot);
 		array.set(right, temp);
-  
+
 		// *** 3. Rekursiv die beiden Subarrays sortieren:
 		quickSort(array, left, l-1, comp);
 		quickSort(array, l+1, right, comp);
     	}
   	}
 }
-
