@@ -21,7 +21,7 @@ public static <T> void quickSort(ArrayList<T> array, int left, int right, Compar
 		Random rand = new Random();
 		T pivot = array.get(rand.nextInt(array.size()-1));
 
-		// *** 2. Aufteilung in Subsequenzen durchfuehren:
+		// *** 2. Aufteilung in Subsequenzen durchfuehren
 		int l = left-1;
 		int r = right;
 		do {
