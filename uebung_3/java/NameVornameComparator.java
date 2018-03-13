@@ -4,28 +4,27 @@
 
 public class NameVornameComparator implements java.util.Comparator<StudentIn>{
   /**
+   * Extrahiert den vollen Namen aus dem Objekt, wenn es sich um
+   * ein Objekt der Klasse StudentIn handelt.
+   */
+  private String extractFullName(StudentIn std) {
+	  return std.getName() + " " + std.getVorname();
+  }
+
+  /** Vergleicht StudentIn a mit StudentIn b
   * liefert:    -1  a ist vor b im Alphabet
   *             0   a ist gleich b
-  *             1   b ist vor a im Alphabet
-  * --> Name vor Vorname, also z.b Mueller Nicolas
-  */
+  *             1   b ist vor a im Alphabet */
   public int compare(StudentIn a, StudentIn b) {
-    return compareHelper(extractNames(a), extractNames(b));
+	  return signum(extractFullName(a),  extractFullName(b));
   }
 
-  private int compareHelper(String a, String b){
-    if(a.length() == 0 && b.length() == 0) return 0;
-
-    int integer_a = a.charAt(0);
-    int integer_b = b.charAt(0);
-
-    if(integer_a < integer_b) return -1;
-    if(integer_a > integer_b) return 1;
-
-    return compareHelper(a.substring(1), b.substring(1));
-  }
-
-  private String extractNames(StudentIn std){
-    return std.getName().concat(std.getVorname()).trim().toLowerCase();
+  /** Vergleicht die Strings miteinander. */
+  private static final int signum (String a, String b) {
+    if (a.compareTo(b)<0)
+      return -1;
+    else if (a.compareTo(b)>0)
+      return 1;
+    else return 0;
   }
 }
