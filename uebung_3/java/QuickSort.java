@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.*;
 
 /**
  * File: QuickSort.java
@@ -15,9 +16,9 @@ public class QuickSort {
 public static <T> void quickSort(ArrayList<T> array, int left, int right, Comparator<T> comp) {
 	if (right>left) {  // Abbruchbedingung der Rekursion
 		T temp;        // temporaere Hilfsvariable zum swappen
-
+		Random rand = new Random();
 		// *** 1. Pivotelement selektieren:
-		T pivot = array.get(right);
+		T pivot = array.get(rand.nextInt(array.size()-1));
 
 		// *** 2. Aufteilung in Subsequenzen durchfuehren
 		int l = left-1;
@@ -43,3 +44,4 @@ public static <T> void quickSort(ArrayList<T> array, int left, int right, Compar
 		quickSort(array, l+1, right, comp);
     	}
   	}
+	}
