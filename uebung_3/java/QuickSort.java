@@ -16,10 +16,6 @@ public class QuickSort {
 public static <T> void quickSort(ArrayList<T> array, int left, int right, Comparator<T> comp) {
 	if (right>left) {  // Abbruchbedingung der Rekursion
 		T temp;        // temporaere Hilfsvariable zum swappen
-<<<<<<< HEAD
-		Random rand = new Random();
-		right = left + rand.nextInt(array.size()-1);
-=======
 
 		Random generator = new Random();
 		int randomized = generator.nextInt(right - left) + left;
@@ -27,7 +23,6 @@ public static <T> void quickSort(ArrayList<T> array, int left, int right, Compar
 		T tObject = array.get(randomized);
 		array.remove(randomized);
 		array.add(right,tObject);
->>>>>>> 28ac9c6df36b8ee31b09933b1b75ab52d08a2c33
 		// *** 1. Pivotelement selektieren:
 		T pivot = array.get(right);
 
