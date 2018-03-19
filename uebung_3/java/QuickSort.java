@@ -17,8 +17,9 @@ public static <T> void quickSort(ArrayList<T> array, int left, int right, Compar
 	if (right>left) {  // Abbruchbedingung der Rekursion
 		T temp;        // temporaere Hilfsvariable zum swappen
 		Random rand = new Random();
+		right = left + rand.nextInt(array.size()-1);
 		// *** 1. Pivotelement selektieren:
-		T pivot = array.get(rand.nextInt(array.size()-1));
+		T pivot = array.get(right);
 
 		// *** 2. Aufteilung in Subsequenzen durchfuehren
 		int l = left-1;
