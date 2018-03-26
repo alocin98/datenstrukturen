@@ -1,5 +1,6 @@
 import java.awt.Component;
 import java.awt.*;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Collections;
@@ -16,6 +17,7 @@ public class KDTreeVisualization extends Component{
   int w, h;                  // Width an height of image
   Graphics2D gi;             // Graphics object to draw points
   int n;                     // Number of points
+
   
   /**
    * Initializes the points.
@@ -92,18 +94,61 @@ public class KDTreeVisualization extends Component{
    * starts creation of the kd-Tree
    */
   public void createKDTree(){
-	  //to be implemented
+	 kdRoot = kdTreeGeneration(points, 0);
+  }
+
+  private TreeNode kdTreeGeneration(LinkedList<Point> points, int axis) {
+      axis = axis % 2;
+      axis++;
+
+      if (points.isEmpty()) return null;
+
+      PointComparator pc = new PointComparator(axis);
+      Collections.sort(points, pc);
+      int median = points.size() / 2;
+      Point med = points.get(median);
+
+      LinkedList<Point> leftTree = new LinkedList<Point>(points.subList(0, median));
+      LinkedList<Point> rightTree = new LinkedList<Point>(points.subList(median + 1, points.size()));
+
+      TreeNode node = new TreeNode(med);
+      node.left = kdTreeGeneration(leftTree, axis);
+      node.right = kdTreeGeneration(rightTree, axis);
+
+      return node;
+  }
+
+  private Point getMedian (LinkedList<Point> points, int axis){
+     PointComparator pc = new PointComparator(axis);
+     Collections.sort(points, pc);
+     Point med = points.get(points.size()/2);
+     return med;
   }
     
   /**
-   * searches the nearest neighbor of a point in a 
+   * searches the nearest neighbor of a point in a
    * list of points
    * @param p the point for which to search
    * @return the nearest neighbor of p
    */
   private Point listSearchNN(Point p){
-    //to be implemented
-    return p;
+
+      Iterator<Point> it = points.iterator();
+      Point startPoint = points.get(0);
+      Point nearest = it.next();
+      double nearestDistance = 100000000;
+
+      while(it.hasNext()){
+          Point point = it.next();
+          double d = Math.sqrt(Math.pow((double)(Math.abs(p.x)-Math.abs(nearest.x)), 2.0)
+                  + Math.pow((double)Math.abs(p.y)-Math.abs(nearest.y), 2.0));
+          if(d < nearestDistance) {
+              nearest = point;
+              nearestDistance = d;
+          }
+      }
+
+      return nearest;
   }
   
   /**
