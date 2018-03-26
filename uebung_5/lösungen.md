@@ -9,7 +9,7 @@ function turnlist(list)
     object tmp = current.next   //nächstes Element zwischenspeichern
     current.next = previous     //zeiger umkehren
     previous = current          //weitergehen mit derm zeiger
-    current = tmp               //''
+    current = tmp               
 
 Aufgabe 2
 
