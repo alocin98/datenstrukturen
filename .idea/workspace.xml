@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74d87d2c-949a-4774-9a68-3c3b13582a1d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/uebung_5/java_5/KDTreeVisualization.java" afterPath="$PROJECT_DIR$/uebung_5/java_5/KDTreeVisualization.java" />
-      <change beforePath="$PROJECT_DIR$/uebung_5/uebung_5.iml" afterPath="$PROJECT_DIR$/uebung_5/uebung_5.iml" />
+      <change beforePath="$PROJECT_DIR$/uebung_5/java_5/KDTreeTester.java" afterPath="$PROJECT_DIR$/uebung_5/java_5/KDTreeTester.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="KDTreeVisualization.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uebung_5/java_5/KDTreeVisualization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3247">
-              <caret line="191" column="11" lean-forward="false" selection-start-line="191" selection-start-column="11" selection-end-line="191" selection-end-column="11" />
+            <state relative-caret-position="944">
+              <caret line="192" column="12" lean-forward="false" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1455#1462#0" expanded="true" />
@@ -54,8 +53,8 @@
       <file leaf-file-name="KDTreeTester.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uebung_5/java_5/KDTreeTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-534">
-              <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state relative-caret-position="190">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,6 +65,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Cedric Aebi &lt;cedric.aebi1@students.unibe.ch&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
@@ -78,6 +82,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/uebung_5/java_5/KDTreeVisualization.java" />
+        <option value="$PROJECT_DIR$/uebung_5/java_5/KDTreeTester.java" />
       </list>
     </option>
   </component>
@@ -305,7 +310,7 @@
       <workItem from="1522057070084" duration="29000" />
       <workItem from="1522066407038" duration="664000" />
       <workItem from="1522087341852" duration="1186000" />
-      <workItem from="1522154404802" duration="1644000" />
+      <workItem from="1522154404802" duration="3696000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1521814740138</created>
@@ -321,11 +326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522088188551</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Chli abgschribe vom internet. Wenn sis nid akzeptiere nimme ig dSchuld uf mi :). Es fehlt jetz no z'Diagramm">
+      <created>1522174695239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522174695239</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4872000" />
+    <option name="totallyTimeSpent" value="6924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -395,7 +407,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asd" />
     <MESSAGE value="asdqwdqd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asdqwdqd" />
+    <MESSAGE value="Chli abgschribe vom internet. Wenn sis nid akzeptiere nimme ig dSchuld uf mi :). Es fehlt jetz no z'Diagramm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chli abgschribe vom internet. Wenn sis nid akzeptiere nimme ig dSchuld uf mi :). Es fehlt jetz no z'Diagramm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -615,8 +628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uebung_5/java_5/KDTreeVisualization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3247">
-          <caret line="191" column="11" lean-forward="false" selection-start-line="191" selection-start-column="11" selection-end-line="191" selection-end-column="11" />
+        <state relative-caret-position="944">
+          <caret line="192" column="12" lean-forward="false" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1455#1462#0" expanded="true" />
@@ -635,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uebung_5/java_5/KDTreeTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-534">
-          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="190">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
