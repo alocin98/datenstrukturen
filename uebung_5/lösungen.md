@@ -14,7 +14,6 @@ function turnlist(list)
 
 ##Aufgabe 2
 
-''''
   new List queue
   ListObject head;
   ListObject tail;
@@ -46,7 +45,6 @@ function turnlist(list)
 ##Aufgabe 3
 
 
-''''
   MERGE(list1, list2)
     object_one = list1(0)
     object_two = list2(0)
