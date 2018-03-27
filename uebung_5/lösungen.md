@@ -1,6 +1,6 @@
-Theoretische Aufgaben
+#Theoretische Aufgaben
 
-Aufgabe 1
+##Aufgabe 1
 
 function turnlist(list)
   object previous = list.get(0) //erstes element der liste
@@ -12,8 +12,9 @@ function turnlist(list)
     current = tmp               
 -----------------------------------------------
 
-Aufgabe 2
+##Aufgabe 2
 
+''''
   new List queue
   ListObject head;
   ListObject tail;
@@ -25,17 +26,27 @@ Aufgabe 2
     obj.next = tmp;
 
   DEQUEUE()
-    ListObject tmp = tail;
-    while(tmp.next.hasNext())
-      tmp = tmp.next;
-    head = tmp;
-    tmp = tmp.next;
-    head.next = null;
-    return tmp;
+    if(queue.isEmpty())
+      throw EmptyQueueExcepton
+    if(head = tail)
+      Object tmp = tail
+      head = null
+      tail = null
+      return tmp
+    if()
+    Object returnObject = tail
+    Object newTail = head.next
+    while(newTail.next.hasNext())
+      newTail = newTail.next;
+    tail = newTail;
+    tail.next = null;
+    return returnObject;
 -------------------------------------------
 
-Aufgabe 3
+##Aufgabe 3
 
+
+''''
   MERGE(list1, list2)
     object_one = list1(0)
     object_two = list2(0)
