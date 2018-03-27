@@ -94,36 +94,35 @@ public class KDTreeVisualization extends Component{
    * starts creation of the kd-Tree
    */
   public void createKDTree(){
-	 kdRoot = kdTreeGeneration(points, 0);
+
+      LinkedList<Point> newPointList = new LinkedList<Point>(points.subList(0, points.size()));
+      kdRoot = newNode(newPointList, 0);
   }
 
-  private TreeNode kdTreeGeneration(LinkedList<Point> points, int axis) {
-      axis = axis % 2;
-      axis++;
 
-      if (points.isEmpty()) return null;
+    private TreeNode newNode(LinkedList<Point> newPointList, int depth) {
+        if (newPointList.isEmpty())
+            return null;
+        else
+        {
+            int axis = depth % 2;
 
-      PointComparator pc = new PointComparator(axis);
-      Collections.sort(points, pc);
-      int median = points.size() / 2;
-      Point med = points.get(median);
+            java.util.Comparator<Point> comp = new PointComparator(axis);
+            Collections.sort(newPointList, comp);
+            int median = newPointList.size()/2;
+            Point medi = newPointList.get(median);
 
-      LinkedList<Point> leftTree = new LinkedList<Point>(points.subList(0, median));
-      LinkedList<Point> rightTree = new LinkedList<Point>(points.subList(median + 1, points.size()));
+            // Create node and construct subtrees
+            TreeNode node = new TreeNode(medi);
 
-      TreeNode node = new TreeNode(med);
-      node.left = kdTreeGeneration(leftTree, axis);
-      node.right = kdTreeGeneration(rightTree, axis);
-
-      return node;
-  }
-
-  private Point getMedian (LinkedList<Point> points, int axis){
-     PointComparator pc = new PointComparator(axis);
-     Collections.sort(points, pc);
-     Point med = points.get(points.size()/2);
-     return med;
-  }
+            //Fill in points before median into 'left', points after median into 'right'
+            LinkedList<Point> leftChild = new LinkedList<Point>(newPointList.subList(0, median));
+            LinkedList<Point> rightChild = new LinkedList<Point>(newPointList.subList(median+1, newPointList.size()));
+            node.left= newNode(leftChild, depth+1);
+            node.right = newNode(rightChild, depth+1);
+            return node;
+        }
+    }
     
   /**
    * searches the nearest neighbor of a point in a
@@ -157,9 +156,49 @@ public class KDTreeVisualization extends Component{
    * @return the nearest neighbor of p
    */
   private Point treeSearchNN(Point p){
-    //to be implemented
-    return p;
+      return kdTreeSearchNN(kdRoot, p, null, 0).position;
   }
+
+    private TreeNode kdTreeSearchNN(TreeNode n, Point p, TreeNode best, int depth) {
+        int axis = depth%2;
+
+        if (n == null) {
+            return best;
+        }
+
+        if (best == null) {
+            best = n;
+        }
+
+        if (p.distance(n.position) < p.distance(best.position)) {
+            best = n;
+        }
+
+        TreeNode child;
+
+        if (axis==0 && p.x < n.position.x || axis==1 && p.y < n.position.y) {
+            child = n.left;
+        } else {
+            child = n.right;
+        }
+
+        best = kdTreeSearchNN(child, p, best, depth+1);
+
+        double distance;
+        if (axis == 0) distance = Math.abs(n.position.x - p.x);
+        else distance = Math.abs(n.position.y - p.y);
+
+        if (axis==0 && p.x < n.position.x || axis==1 && p.y < n.position.y) {
+            child = n.right;
+        } else {
+            child = n.left;
+        }
+        if (distance <= p.distance(best.position)) {
+            best = kdTreeSearchNN(child, p, best,depth+1);
+        }
+
+        return best;
+    }
   
   /**
    * Visualizes the points in the list
