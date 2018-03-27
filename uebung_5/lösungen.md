@@ -10,7 +10,7 @@ function turnlist(list)
     current.next = previous     //zeiger umkehren
     previous = current          //weitergehen mit derm zeiger
     current = tmp               
------------------------------------------------
+
 
 ##Aufgabe 2
 
@@ -40,7 +40,7 @@ function turnlist(list)
     tail = newTail;
     tail.next = null;
     return returnObject;
--------------------------------------------
+
 
 ##Aufgabe 3
 
