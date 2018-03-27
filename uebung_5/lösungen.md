@@ -34,7 +34,7 @@ Aufgabe 2
     return tmp;
 -------------------------------------------
 
-  Aufgabe 3
+Aufgabe 3
 
   MERGE(list1, list2)
     object_one = list1(0)
