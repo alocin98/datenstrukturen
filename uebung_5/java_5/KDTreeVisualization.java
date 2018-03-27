@@ -18,23 +18,23 @@ public class KDTreeVisualization extends Component{
   Graphics2D gi;             // Graphics object to draw points
   int n;                     // Number of points
 
-  
+
   /**
    * Initializes the points.
-   * 
+   *
    * @param w width of window.
    * @param h height of window.
    * @param n number of points.
    */
   public KDTreeVisualization(int w, int h, int n) {
-    
+
     this.w=w;
     this.h=h;
     this.n=n;
-    
+
     this.kdRoot = null;
   }
-  
+
   /**
    * Initializes the image
    */
@@ -43,7 +43,7 @@ public class KDTreeVisualization extends Component{
     gi = (Graphics2D)img.getGraphics();
     gi.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
   }
-  
+
   /**
    * create and show a set of randomly generated points
    */
@@ -51,7 +51,7 @@ public class KDTreeVisualization extends Component{
 	  points = this.createPoints(n);
 	  this.visualizePoints();
   }
-  
+
   /**
    * Initialize points by distributing them randomly.
    */
@@ -62,14 +62,14 @@ public class KDTreeVisualization extends Component{
     }
     return p;
   }
-  
+
   /**
    * Searches the nearest neighbor for x points
    * @param x number of points to search
    * @param mode data structure to use (0: list, 1: kd-tree)
    */
   public void searchNN(int x, int mode){
-    
+
 	  LinkedList<Point> searchPoints = createPoints(x);
 	  Timer t = new Timer();
 	  t.reset();
@@ -78,9 +78,9 @@ public class KDTreeVisualization extends Component{
 	  {
 		  Point p = it.next();
 		  Point q;
-      
+
 		  switch(mode){
-		  	case 0: 
+		  	case 0:
 		  		q=this.listSearchNN(p);
 		  		break;
 		  	case 1:
@@ -89,7 +89,7 @@ public class KDTreeVisualization extends Component{
 	  }
 	  System.out.printf("Number of points searched: %d, Time: %dms\n", x, t.timeElapsed());
   }
-  
+
   /**
    * starts creation of the kd-Tree
    */
@@ -115,6 +115,18 @@ public class KDTreeVisualization extends Component{
             // Create node and construct subtrees
             TreeNode node = new TreeNode(medi);
 
+<<<<<<< HEAD
+      return node;
+  }
+
+  private Point getMedian (LinkedList<Point> points, int axis){
+     PointComparator pc = new PointComparator(axis);
+     Collections.sort(points, pc);
+     Point med = points.get(points.size()/2);
+     return med;
+  }
+
+=======
             //Fill in points before median into 'left', points after median into 'right'
             LinkedList<Point> leftChild = new LinkedList<Point>(newPointList.subList(0, median));
             LinkedList<Point> rightChild = new LinkedList<Point>(newPointList.subList(median+1, newPointList.size()));
@@ -124,6 +136,7 @@ public class KDTreeVisualization extends Component{
         }
     }
     
+>>>>>>> 737cfdbe1b8bbeaac25cca50fa363b2d8997cc65
   /**
    * searches the nearest neighbor of a point in a
    * list of points
@@ -149,7 +162,7 @@ public class KDTreeVisualization extends Component{
 
       return nearest;
   }
-  
+
   /**
    * searches the nearest neighbor of a point in a kd-tree
    * @param p the point for which to search
@@ -159,6 +172,8 @@ public class KDTreeVisualization extends Component{
       return kdTreeSearchNN(kdRoot, p, null, 0).position;
   }
 
+<<<<<<< HEAD
+=======
     private TreeNode kdTreeSearchNN(TreeNode n, Point p, TreeNode best, int depth) {
         int axis = depth%2;
 
@@ -200,12 +215,13 @@ public class KDTreeVisualization extends Component{
         return best;
     }
   
+>>>>>>> 737cfdbe1b8bbeaac25cca50fa363b2d8997cc65
   /**
    * Visualizes the points in the list
    */
   public void visualizePoints(){
     gi.clearRect(0, 0, w, h);
-    
+
     Iterator<Point> it = points.iterator();
     while(it.hasNext())
     {
@@ -214,14 +230,14 @@ public class KDTreeVisualization extends Component{
     }
     this.repaint();
   }
-  
+
   /**
    * Visualizes the order of the points in the list
    *
    */
   public void visualizeList(){
     gi.clearRect(0, 0, w, h);
-    
+
     Point old= new Point(0,0);
     Iterator<Point> it = points.iterator();
     if(it.hasNext()){
@@ -240,7 +256,7 @@ public class KDTreeVisualization extends Component{
     }
     this.repaint();
   }
-  
+
   /**
    * starter for the kd-tree visualization
    */
@@ -249,7 +265,7 @@ public class KDTreeVisualization extends Component{
       visualize(this.kdRoot, 0, 0, w, 0, h);
       this.repaint();
   }
-  
+
   /**
    * Visualizes the kd-tree
    * @param n TreeNode
@@ -266,7 +282,7 @@ public class KDTreeVisualization extends Component{
 			  gi.fillOval(n.position.x-2, n.position.y-2, 5, 5);
 			  gi.drawLine(n.position.x, top, n.position.x, bottom);
 			  visualize(n.left, depth+1, left, n.position.x, top, bottom);
-			  visualize(n.right, depth+1, n.position.x, right, top, bottom); 
+			  visualize(n.right, depth+1, n.position.x, right, top, bottom);
 		  }else {
 			  gi.fillOval(n.position.x-2, n.position.y-2, 5, 5);
 			  gi.drawLine(left, n.position.y, right, n.position.y);
@@ -275,16 +291,16 @@ public class KDTreeVisualization extends Component{
 		  }
 	  }
   }
-  
-  
+
+
   /**
    * Paint the image
    */
     public void paint(Graphics g)
-    { 
+    {
       g.drawImage(img, 0, 0, null);
     }
-    
+
   public Dimension getPreferredSize() {
     return new Dimension(w, h);
   }
@@ -296,7 +312,7 @@ public class KDTreeVisualization extends Component{
   {
     private TreeNode left, right;    // Pointers to left and right child
     private Point position;          // Position of the Point
-    
+
     TreeNode(Point point)
     {
       this.position = point;
