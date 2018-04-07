@@ -3,7 +3,7 @@
 *.war
 *.ear
 
-# eclipse and setting files
+# eclipse and IntelliJ and setting files
 */bin
 *.launch
 .settings/
@@ -16,6 +16,7 @@
 !.gitignore
 !.classpath
 !.project
+!.idea
 
 # Temporary files
 *.tmp
