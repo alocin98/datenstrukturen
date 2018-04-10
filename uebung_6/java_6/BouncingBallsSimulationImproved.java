@@ -1,38 +1,46 @@
 import java.awt.*;
-import java.awt.geom.*;
-import java.util.*;
+import java.awt.geom.Ellipse2D;
+import java.util.Iterator;
+import java.util.LinkedList;
 
 /**
  * Implements a bouncing ball simulation.
  */
-public class BouncingBallsSimulation extends Component implements Runnable {
+public class BouncingBallsSimulationImproved extends Component implements Runnable {
 
-	LinkedList<Ball> balls;	// List of balls.
-	Image img;				// Image to display balls.
-	int w, h;				// Width an height of image.
-	Graphics2D gi;			// Graphics object to draw balls.
-	float r;				// Radius of balls.
-	int n;					// Number of balls.
-	Thread thread;			// Thread that runs simulation loop.
+	LinkedList<Ball>[][] hashtable;	// List of balls.
+	Image img;						// Image to display balls.
+	int w, h;						// Width an height of image.
+	Graphics2D gi;					// Graphics object to draw balls.
+	float r;						// Radius of balls.
+	int n;							// Number of balls.
+	Thread thread; 					// Thread that runs simulation loop.
+	int m;							// Number of list elements
 
 	/**
 	 * Initializes the simulation.
-	 * 
+	 *
 	 * @param w width of simulation window.
 	 * @param h height of simulation window.
 	 * @param n number of balls.
 	 * @param r radius of balls.
 	 * @param v initial velocity of balls.
 	 */
-	public BouncingBallsSimulation(int w, int h, int n, float r, float v)
+	public BouncingBallsSimulationImproved(int w, int h, int n, float r, float v, int m)
 	{
 		this.r = r;
 		this.n = n;
 		this.w = w;
 		this.h = h;
+		this.m = m;
 		
 		// Initialize balls by distributing them randomly.
-		balls = new LinkedList<Ball>();
+		hashtable = (LinkedList<Ball>[][]) new LinkedList<?>[m][m];
+		for(int i = 0; i < hashtable .length; i++){
+			for(int j = 0; j < hashtable [i].length; j++){
+				hashtable [i][j] = new LinkedList<Ball>();
+			}
+		}
 		for(int i=0; i<n; i++)
 		{
 			float vx = 2*(float)Math.random()-1;
@@ -115,7 +123,7 @@ public class BouncingBallsSimulation extends Component implements Runnable {
 	        	if(ball.doesCollide(0.f,0.f,0.f,1.f))
 	        		ball.resolveCollision(0.f,0.f,0.f,1.f);
         		
-	        	//Handle collisions with other balls.
+	        	//TODO: Handle collisions with other balls.
         		Iterator<Ball> it2 = balls.iterator();
         		Ball ball2 = it2.next();
         		while(ball2 != ball)
