@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74d87d2c-949a-4774-9a68-3c3b13582a1d" name="Default" comment="styling&#10;&#10;(cherry picked from commit 8d0388d46f24014a654f0cbabdea4dbc599936a6)">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uebung_6/uebung_6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="74d87d2c-949a-4774-9a68-3c3b13582a1d" name="Default" comment="styling&#10;&#10;(cherry picked from commit 8d0388d46f24014a654f0cbabdea4dbc599936a6)" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,16 +34,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BouncingBalls.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BouncingBalls.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uebung_6/java/BouncingBalls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BouncingBallsSimulation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BouncingBallsSimulation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uebung_6/java/BouncingBallsSimulation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2193">
@@ -288,7 +282,7 @@
       <workItem from="1522241632611" duration="447000" />
       <workItem from="1522328878718" duration="376000" />
       <workItem from="1523347518045" duration="151000" />
-      <workItem from="1523347708016" duration="1507000" />
+      <workItem from="1523347708016" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1521814740138</created>
@@ -322,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11049000" />
+    <option name="totallyTimeSpent" value="11247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -674,6 +668,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/uebung_6/java/BouncingBalls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/uebung_6/java/BouncingBallsSimulation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2193">
@@ -681,13 +682,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung_6/java/BouncingBalls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
