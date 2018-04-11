@@ -11,7 +11,7 @@ public class BouncingBalls {
     	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     	
     	// Initialize the simulation and add it to the main frame.
-    	BouncingBallsSimulation simulation = new BouncingBallsSimulation(1000,1000, 1000, 4.f, 0.2f);
+    	BouncingBallsSimulationImproved simulation = new BouncingBallsSimulationImproved(1000,1000, 1000, 4.f, 0.2f, 10);
     	frame.add(simulation);
     	simulation.setVisible(true);
     	
