@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74d87d2c-949a-4774-9a68-3c3b13582a1d" name="Default" comment="styling&#10;&#10;(cherry picked from commit 8d0388d46f24014a654f0cbabdea4dbc599936a6)">
-      <change afterPath="$PROJECT_DIR$/uebung_6/java_6/BouncingBallsSimulationImproved.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung_6/java_6/BouncingBalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/uebung_6/java_6/BouncingBalls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung_6/java_6/BouncingBallsSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/uebung_6/java_6/BouncingBallsSimulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung_6/uebung_6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/uebung_6/uebung_6.iml" afterDir="false" />
-    </list>
+    <list default="true" id="74d87d2c-949a-4774-9a68-3c3b13582a1d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Timer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uebung_6/java_6/Timer.java">
+      <file leaf-file-name="Ball.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uebung_6/java_6/Ball.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -43,26 +37,8 @@
       <file leaf-file-name="BouncingBalls.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uebung_6/java_6/BouncingBalls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="119" selection-start-line="13" selection-start-column="119" selection-end-line="13" selection-end-column="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ball.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uebung_6/java_6/Ball.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BouncingBallsSimulation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uebung_6/java_6/BouncingBallsSimulation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="340">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -70,8 +46,8 @@
       <file leaf-file-name="BouncingBallsSimulationImproved.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uebung_6/java_6/BouncingBallsSimulationImproved.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-73">
-              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="306">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -103,8 +79,8 @@
         <option value="$PROJECT_DIR$/uebung_6/java/Timer.java" />
         <option value="$PROJECT_DIR$/uebung_6/java/BouncingBallsSimulationImproved.java" />
         <option value="$PROJECT_DIR$/uebung_6/java_6/BouncingBallsSimulation.java" />
-        <option value="$PROJECT_DIR$/uebung_6/java_6/BouncingBalls.java" />
         <option value="$PROJECT_DIR$/uebung_6/java_6/BouncingBallsSimulationImproved.java" />
+        <option value="$PROJECT_DIR$/uebung_6/java_6/BouncingBalls.java" />
       </list>
     </option>
   </component>
@@ -132,6 +108,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Datenstrukturen" type="58d84e3e:PackageViewProjectNode" />
+              <item name="uebung_4" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,19 +136,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Datenstrukturen" type="58d84e3e:PackageViewProjectNode" />
-              <item name="uebung_4" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,7 +270,10 @@
       <workItem from="1522241632611" duration="447000" />
       <workItem from="1522328878718" duration="376000" />
       <workItem from="1523347518045" duration="151000" />
-      <workItem from="1523347708016" duration="4783000" />
+      <workItem from="1523347708016" duration="5055000" />
+      <workItem from="1523433940985" duration="19000" />
+      <workItem from="1523471913817" duration="213000" />
+      <workItem from="1523472575341" duration="3651000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1521814740138</created>
@@ -324,11 +303,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522182313365</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="styling&#10;&#10;(cherry picked from commit 8d0388d46f24014a654f0cbabdea4dbc599936a6)">
+      <created>1523389870811</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523389870812</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14325000" />
+    <option name="totallyTimeSpent" value="18480000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,15 +338,14 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.503231" side_tool="true" weight="0.3287483" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23172414" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23172414" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49676898" weight="0.32827586" />
       <window_info anchor="bottom" id="Sequence" order="8" weight="0.43448275" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827586" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2907916" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30533117" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -372,6 +357,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +397,8 @@
     <MESSAGE value="asdqwdqd" />
     <MESSAGE value="Chli abgschribe vom internet. Wenn sis nid akzeptiere nimme ig dSchuld uf mi :). Es fehlt jetz no z'Diagramm" />
     <MESSAGE value="Final with merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final with merge" />
+    <MESSAGE value="styling&#10;&#10;(cherry picked from commit 8d0388d46f24014a654f0cbabdea4dbc599936a6)" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling&#10;&#10;(cherry picked from commit 8d0388d46f24014a654f0cbabdea4dbc599936a6)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -423,6 +410,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/uebung_6/java_6/BouncingBalls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/uebung_5/java_5/PointComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -434,17 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="172" selection-start-line="172" selection-end-line="321" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4714#4715#0" expanded="true" />
-            <element signature="e#4780#4781#0" expanded="true" />
-            <element signature="e#8223#8224#0" expanded="true" />
-            <element signature="e#8267#8268#0" expanded="true" />
-            <element signature="e#8310#8311#0" expanded="true" />
-            <element signature="e#8352#8353#0" expanded="true" />
-            <element signature="e#8613#8614#0" expanded="true" />
-            <element signature="e#8658#8659#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -452,23 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung_5/java_5/KDTreeVisualization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4714#4715#0" expanded="true" />
-            <element signature="e#4780#4781#0" expanded="true" />
-            <element signature="e#8223#8224#0" expanded="true" />
-            <element signature="e#8267#8268#0" expanded="true" />
-            <element signature="e#8310#8311#0" expanded="true" />
-            <element signature="e#8352#8353#0" expanded="true" />
-            <element signature="e#8613#8614#0" expanded="true" />
-            <element signature="e#8658#8659#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,23 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1342#1343#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
-            <element signature="e#1829#1830#0" expanded="true" />
-            <element signature="e#2011#2012#0" expanded="true" />
-            <element signature="e#2049#2050#0" expanded="true" />
-            <element signature="e#2223#2224#0" expanded="true" />
-            <element signature="e#2264#2265#0" expanded="true" />
-            <element signature="e#2453#2454#0" expanded="true" />
-            <element signature="e#2492#2493#0" expanded="true" />
-            <element signature="e#2651#2652#0" expanded="true" />
-            <element signature="e#2690#2691#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,90 +636,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4714#4715#0" expanded="true" />
-            <element signature="e#4780#4781#0" expanded="true" />
-            <element signature="e#8223#8224#0" expanded="true" />
-            <element signature="e#8267#8268#0" expanded="true" />
-            <element signature="e#8310#8311#0" expanded="true" />
-            <element signature="e#8352#8353#0" expanded="true" />
-            <element signature="e#8613#8614#0" expanded="true" />
-            <element signature="e#8658#8659#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uebung_6/java/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung_6/java/Ball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung_6/java/BouncingBallsSimulationImproved.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="128" column="12" lean-forward="true" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung_6/java/BouncingBalls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung_6/java/BouncingBallsSimulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/uebung_6/java/Timer.java" />
+    <entry file="file://$PROJECT_DIR$/uebung_6/java/Ball.java" />
+    <entry file="file://$PROJECT_DIR$/uebung_6/java/BouncingBallsSimulationImproved.java" />
+    <entry file="file://$PROJECT_DIR$/uebung_6/java/BouncingBalls.java" />
+    <entry file="file://$PROJECT_DIR$/uebung_6/java/BouncingBallsSimulation.java" />
     <entry file="file://$PROJECT_DIR$/uebung_6/java_6/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="-73">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uebung_6/java_6/BouncingBallsSimulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="105" column="24" lean-forward="true" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uebung_6/java_6/Ball.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung_6/java_6/BouncingBallsSimulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uebung_6/java_6/BouncingBalls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="119" selection-start-line="13" selection-start-column="119" selection-end-line="13" selection-end-column="119" />
+        <state relative-caret-position="340">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uebung_6/java_6/BouncingBallsSimulationImproved.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="306">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
