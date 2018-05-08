@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74d87d2c-949a-4774-9a68-3c3b13582a1d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/uebung 10 /src/HuffmanCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uebung 10 /src/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uebung 10 /uebung 10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung_10 /uebung_10.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -30,29 +28,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="HuffmanCode.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uebung 10 /src/HuffmanCode.java">
+        <entry file="file://$PROJECT_DIR$/uebung_10 /src/HuffmanCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#694#700#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uebung 10 /src/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-              <folding>
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -120,19 +101,17 @@
           <expand>
             <path>
               <item name="Datenstrukturen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uebung 10 " type="462c0819:PsiDirectoryNode" />
+              <item name="uebung_10 " type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Datenstrukturen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uebung 10 " type="462c0819:PsiDirectoryNode" />
+              <item name="uebung_10 " type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -144,6 +123,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +271,8 @@
       <workItem from="1523472575341" duration="3651000" />
       <workItem from="1523537078305" duration="1513000" />
       <workItem from="1523605747843" duration="15000" />
-      <workItem from="1525776679315" duration="9930000" />
+      <workItem from="1525776679315" duration="10246000" />
+      <workItem from="1525807102675" duration="209000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1521814740138</created>
@@ -331,7 +313,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30420000" />
+    <option name="totallyTimeSpent" value="30945000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,33 +330,33 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827586" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.503231" side_tool="true" weight="0.3287483" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23172414" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49676898" weight="0.32827586" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23172414" />
       <window_info anchor="bottom" id="Sequence" order="11" weight="0.43448275" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827586" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31987077" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32471728" />
       <window_info anchor="right" id="Database" order="7" weight="0.32956383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889959" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889959" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827586" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,13 +409,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uebung_5/java_5/PointComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uebung_5/java_5/KDTreeTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -449,27 +424,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java" />
+    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java" />
+    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java" />
     <entry file="file://$PROJECT_DIR$/uebung_4/java/RadixSortTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -479,13 +436,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uebung_3/java/hd" />
     <entry file="file://$PROJECT_DIR$/uebung_3/java/hd" />
-    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java" />
     <entry file="file://$PROJECT_DIR$/uebung_5/uebung_5.iml" />
     <entry file="file://$PROJECT_DIR$/uebung_4/java/RadixSortTester.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -506,27 +457,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java" />
+    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java" />
+    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java" />
     <entry file="file://$PROJECT_DIR$/uebung_4/java/RadixSortTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -536,13 +469,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uebung_3/java/hd" />
     <entry file="file://$PROJECT_DIR$/uebung_3/java/hd" />
-    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/uebung 1/src/SortComp.java" />
     <entry file="file://$PROJECT_DIR$/uebung_5/uebung_5.iml" />
     <entry file="file://$PROJECT_DIR$/uebung_5/java/Timer.java" />
     <entry file="file://$PROJECT_DIR$/uebung_5/java/PointComparator.java" />
@@ -682,25 +609,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uebung 10 /src/Node.java">
+    <entry file="file://$PROJECT_DIR$/uebung 10 /src/Node.java" />
+    <entry file="file://$PROJECT_DIR$/uebung 10 /src/HuffmanCode.java" />
+    <entry file="file://$PROJECT_DIR$/uebung_10 /src/HuffmanCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung 10 /src/HuffmanCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#694#700#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -757,7 +671,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>uebung 10</last-edited>
+          <last-edited>uebung_10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
