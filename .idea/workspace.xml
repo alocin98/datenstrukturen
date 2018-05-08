@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74d87d2c-949a-4774-9a68-3c3b13582a1d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/uebung_9/java/uebung_9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung 10 /src/HuffmanCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung 10 /src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung 10 /uebung 10.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -29,11 +31,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SeamCarving.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uebung_9/java/src/SeamCarving.java">
+      <file leaf-file-name="HuffmanCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uebung 10 /src/HuffmanCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#694#700#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uebung 10 /src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding>
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +86,8 @@
         <option value="$PROJECT_DIR$/uebung_6/java_6/BouncingBallsSimulation.java" />
         <option value="$PROJECT_DIR$/uebung_6/java_6/BouncingBallsSimulationImproved.java" />
         <option value="$PROJECT_DIR$/uebung_6/java_6/BouncingBalls.java" />
+        <option value="$PROJECT_DIR$/uebung 10 /src/Node.java" />
+        <option value="$PROJECT_DIR$/uebung 10 /src/HuffmanCode.java" />
       </list>
     </option>
   </component>
@@ -94,30 +115,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Datenstrukturen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uebung 10 " type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Datenstrukturen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uebung 10 " type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
               <item name="Datenstrukturen" type="58d84e3e:PackageViewProjectNode" />
               <item name="uebung_4" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Datenstrukturen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Datenstrukturen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,13 +172,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BouncingBalls">
+  <component name="RunManager" selected="Application.HuffmanCode">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="BouncingBalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BouncingBalls" />
       <module name="uebung_6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="HuffmanCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HuffmanCode" />
+      <module name="uebung 10" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="KDTreeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -228,9 +254,11 @@
       <item itemvalue="Application.RadixSortTester" />
       <item itemvalue="Application.KDTreeTester" />
       <item itemvalue="Application.BouncingBalls" />
+      <item itemvalue="Application.HuffmanCode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.BouncingBalls" />
         <item itemvalue="Application.KDTreeTester" />
         <item itemvalue="Application.RadixSortTester" />
@@ -262,6 +290,7 @@
       <workItem from="1523472575341" duration="3651000" />
       <workItem from="1523537078305" duration="1513000" />
       <workItem from="1523605747843" duration="15000" />
+      <workItem from="1525776679315" duration="9930000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1521814740138</created>
@@ -302,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20362000" />
+    <option name="totallyTimeSpent" value="30420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,58 +344,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.503231" side_tool="true" weight="0.3287483" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23172414" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49676898" weight="0.32827586" />
-      <window_info anchor="bottom" id="Sequence" order="8" weight="0.43448275" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827586" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.503231" side_tool="true" weight="0.3287483" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23172414" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49676898" weight="0.32827586" />
+      <window_info anchor="bottom" id="Sequence" order="11" weight="0.43448275" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827586" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31987077" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31987077" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32956383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889959" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32827586" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827586" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49676898" weight="0.32827586" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23172414" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889959" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.503231" side_tool="true" weight="0.3287483" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Sequence" order="8" weight="0.43448275" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31502423" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,20 +427,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uebung_5/java_5/KDTreeVisualization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="172" selection-start-line="172" selection-end-line="321" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uebung_5/java_5/KDTreeTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uebung_5/java_5/PointComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -671,9 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,8 +677,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uebung_9/java/src/SeamCarving.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uebung 10 /src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uebung 10 /src/HuffmanCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#694#700#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -744,7 +757,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>uebung_9</last-edited>
+          <last-edited>uebung 10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
